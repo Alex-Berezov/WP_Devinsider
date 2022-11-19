@@ -239,15 +239,3 @@
 
     return $aboutInfo;
   }
-
-  // function getActivities() {
-  //   $args = [
-  //     'orderby' => 'date',
-  //     'order'   => 'ASC',
-  //     'post_type' => 'post'
-  //   ];
-
-  //   return get_posts($args);
-  // }
-
-  // print_r(getActivities());
