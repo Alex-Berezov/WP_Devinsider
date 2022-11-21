@@ -448,8 +448,8 @@ p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   color: #000000;
 }
 
@@ -489,6 +489,8 @@ p {
 .header .container .desktopMenu .logoWrapper {
   padding: 6px 0;
   align-self: center;
+  max-width: 300px;
+  height: auto;
 }
 
 .header .container .desktopMenu .nav .navItems {
@@ -688,13 +690,14 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   margin-top: 85px;
 }
 
 .services .container .servicesBlock .serviceItem {
   width: 25%;
   position: relative;
+  min-height: 275px;
 }
 
 .services .container .servicesBlock .serviceItem .title {
@@ -1135,8 +1138,8 @@ p {
   }
 
   .H5 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
   }
 
   .howWeWork .container-full .howBlock .offsetLine {
@@ -1201,8 +1204,8 @@ p {
 
 @media screen and (max-width: 1440px) {
   .H5 {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .header .container .desktopMenu .nav .navItems {
@@ -1303,8 +1306,8 @@ p {
 
 @media screen and (max-width: 1180px) {
   .H5 {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .header .container .desktopMenu .nav .navItems:not(:last-child) {
