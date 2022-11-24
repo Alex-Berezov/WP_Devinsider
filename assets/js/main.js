@@ -1,4 +1,7 @@
-if (document.URL === 'https://devinsider.ru/') {
+const siteURL = document.URL
+const currentURL = siteURL === 'https://devinsider.ru/' ? 'https://devinsider.ru/' : 'http://localhost/devinsider/'
+
+if (document.URL === currentURL || document.URL.startsWith(`${currentURL}#`)) {
   //Added class to logos
 
   const headerLogoWrappper = document.querySelector('.header .custom-logo-link')

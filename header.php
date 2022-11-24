@@ -12,7 +12,9 @@
   <header class="header">
     <div class="container">
       <div class="desktopMenu">
-        <?php the_custom_logo(); ?>
+        <div class="logoWrapper">
+          <?php the_custom_logo() ?>
+        </div>
         <nav class="nav">
           <a href="<?php echo get_home_url() . '/#about' ?>" class="navItems H5">о нас</a>
           <a href="<?php echo get_home_url() . '/#services' ?>" class="navItems H5">услуги</a>
@@ -26,7 +28,9 @@
     
     <div class="container-full">
       <div class="mobileMenu">
-        <?php the_custom_logo(); ?>
+        <div class="logoWrapper">
+          <?php the_custom_logo() ?>
+        </div>
 
         <input id="menu__toggle" type="checkbox" />
         <label class="menu__btn" for="menu__toggle">
